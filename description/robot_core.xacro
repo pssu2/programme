@@ -46,7 +46,7 @@
                 <box size="0.38 0.365 0.0635"/>
             </geometry>
         </collision>
-        <xacro:inertial_box mass="0.5" x="0.38" y="0.365" z="0.0635">
+        <xacro:inertial_box mass="5" x="0.38" y="0.365" z="0.0635">
             <origin xyz="0.15 0 0.03175" rpy="0 0 0"/>
         </xacro:inertial_box>
     </link>
@@ -69,7 +69,7 @@
         </visual>
         <collision>
             <geometry>
-                <cylinder radius="0.018" length="0.04" />
+                <sphere radius="0.018"/>
             </geometry>
         </collision>
         <xacro:inertial_cylinder mass="0.1" length="0.04" radius="0.018">
@@ -97,7 +97,7 @@
         </visual>
         <collision>
             <geometry>
-                <cylinder radius="0.018" length="0.04" />
+                <sphere radius="0.018"/>
             </geometry>
         </collision>
         <xacro:inertial_cylinder mass="0.1" length="0.04" radius="0.018">
